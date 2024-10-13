@@ -10,8 +10,13 @@
     "test": "jest"
   },
   "dependencies": {
+    "classnames": "^2.5.1",
+    "nativewind": "^4.0.1",
     "react": "18.3.1",
-    "react-native": "0.75.4"
+    "react-native": "0.75.4",
+    "react-native-reanimated": "^3.15.5",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-safe-area-view": "react-native-community/react-native-safe-area-view"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -28,6 +33,7 @@
     "jest": "^29.6.3",
     "prettier": "2.8.8",
     "react-test-renderer": "18.3.1",
+    "tailwindcss": "^3.4.13",
     "typescript": "5.0.4"
   },
   "engines": {
